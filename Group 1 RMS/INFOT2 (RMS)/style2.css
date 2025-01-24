@@ -1,0 +1,75 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Font */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F8F8F8;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #FF5A5F;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    margin-top: 40px;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 12px 20px;
+    text-align: left;
+    font-size: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+table th {
+    background-color: #FF5A5F;
+    color: white;
+    font-weight: bold;
+}
+
+table td {
+    background-color: white;
+}
+
+/* Table row hover */
+table tr:hover {
+    background-color: #FFEBEB;
+}
+
+/* Table container */
+.table-container {
+    width: 80%;
+    margin: 0 auto;
+    overflow-x: auto;
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Table responsiveness */
+@media (max-width: 768px) {
+    table th, table td {
+        font-size: 0.9rem;
+        padding: 10px 15px;
+    }
+}

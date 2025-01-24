@@ -1,0 +1,345 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F8F8F8;
+    color: #333;
+}
+/* Home Section */
+#home {
+    background-color: #fff;
+    color: #333;
+    padding: 40px 0;
+}
+
+#home h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #635bee;
+}
+
+#home p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+#home strong {
+    font-weight: 600;
+}
+
+#home h3 {
+    font-size: 1.7rem;
+    margin-top: 20px;
+    color: #635bee;
+}
+
+@media (max-width: 768px) {
+    #home h2, #home h3 {
+        font-size: 1.5rem;
+    }
+
+    #home p {
+        font-size: 1rem;
+    }
+}
+
+/* Header */
+header {
+    background-color: #635bee; 
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+
+/* Navbar */
+nav ul {
+    list-style: none;
+    padding-top: 15px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: rgb(247, 247, 247);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #63e8ff;
+}
+
+/* Containers */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.section {
+    padding: 40px 0;
+}
+
+/* Restaurant List */
+.restaurant-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.restaurant {
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: calc(25% - 20px);
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.restaurant-img {
+    max-width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Menu */
+.menu {
+    margin-top: 15px;
+    list-style: none;
+}
+
+.menu li {
+    margin: 10px 0;
+}
+
+.food-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+
+.order-btn {
+    background-color: #FF5A5F;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.order-btn:hover {
+    background-color: #FF3D48;
+}
+
+/* Table */
+.table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+th {
+    background-color: #FFEC63;
+}
+
+tr:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
+tr:hover {
+    background-color: #FFFBF1;
+}
+
+button {
+    background-color: #FF5A5F;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #FF3D48;
+}
+
+.qty-input {
+    width: 60px;
+    padding: 5px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #FF5A5F;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.back-link:hover {
+    background-color: #FF3D48;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 50px 20px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .left, .right {
+    width: 48%;
+    margin-bottom: 20px;
+  }
+  
+  /* Left Section - Countries List */
+  .left h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .countries {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+  }
+  
+  .countries span {
+    font-size: 14px;
+    margin: 0;
+    white-space: nowrap;
+  }
+  
+  .countries span:not(:last-child) {
+    border-right: 1px solid #ffffff;
+    padding-right: 15px;
+    margin-right: 15px;
+  }
+  
+  .left p {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: left;
+  }
+  
+  /* Right Section - Social Links, Legal */
+  .right {
+    text-align: right;
+  }
+  
+  .social {
+    list-style: none;
+    padding: 0;
+    display: inline-flex;
+    gap: 20px; /* Added more space between social icons */
+    margin-bottom: 20px;
+  }
+  
+  .social a {
+    color: white;
+    font-size: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .social a:hover {
+    color: #FF5A5F;
+  }
+  
+  .legal {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+  }
+  
+  .legal a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .legal a:hover {
+    color: #FF5A5F;
+  }
+  
+  @media (max-width: 768px) {
+    .left, .right {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .social {
+      justify-content: center;
+    }
+  
+    .legal {
+      justify-content: center;
+    }
+  
+    .countries {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .countries span {
+      border-right: none;
+      margin: 5px 0;
+    }
+  }
+  
