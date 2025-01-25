@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mang Inasal Menu</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style1.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Starbucks Menu</h1>
+            <a href="../index.html" class="back-link">Back to Restaurants</a>
+        </div>
+    </header>
+
+    <section class="menu-section">
+        <div class="container">
+            <h2 class="section-title">Our Menu</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <img src="../images/starbucks_img/Cold FoamIced Espresso.jpg" alt="Cold FoamIced Espresso" class="menu-item-image">
+                    <div class="menu-item-details">
+                        <h3>Cold Foam Iced Espresso</h3>
+                        <p class="menu-item-price">₱195.00</p>
+                        <form action="../order.php" method="POST" class="order-form">
+                            <input type="number" name="quantity" min="1" value="1" class="quantity-input">
+                            <input type="hidden" name="item" value="Cold FoamIced Espresso">
+                            <input type="hidden" name="price" value="195.00">
+                            <input type="hidden" name="restaurant_name" value="Shakey's">
+                            <button type="submit" class="order-btn">Order</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="../images/starbucks_img/Iced Caffe Latte.jpg" alt="Iced Caffe Latte" class="menu-item-image">
+                    <div class="menu-item-details">
+                        <h3>Iced Caffe Latte</h3>
+                        <p class="menu-item-price">₱176.00</p>
+                        <form action="order.php" method="POST" class="order-form">
+                            <input type="number" name="quantity" min="1" value="1" class="quantity-input">
+                            <input type="hidden" name="item" value="Iced Caffe Latte">
+                            <input type="hidden" name="price" value="176.00">
+                            <button type="submit" class="order-btn">Order</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="../images/starbucks_img/Iced Caffe Mocha.png" alt="Iced Caffe Mocha" class="menu-item-image">
+                    <div class="menu-item-details">
+                        <h3>Iced Caffe Mocha</h3>
+                        <p class="menu-item-price">₱185.00</p>
+                        <form action="order.php" method="POST" class="order-form">
+                            <input type="number" name="quantity" min="1" value="1" class="quantity-input">
+                            <input type="hidden" name="item" value="Iced Caffe Mocha">
+                            <input type="hidden" name="price" value="185.00">
+                            <button type="submit" class="order-btn">Order</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="../images/starbucks_img/Iced Cappuccino.png" alt="Iced Cappuccino" class="menu-item-image">
+                    <div class="menu-item-details">
+                        <h3>Iced Cappuccino</h3>
+                        <p class="menu-item-price">₱88.00</p>
+                        <form action="order.php" method="POST" class="order-form">
+                            <input type="number" name="quantity" min="1" value="1" class="quantity-input">
+                            <input type="hidden" name="item" value="Iced Cappuccino">
+                            <input type="hidden" name="price" value="88.00">
+                            <button type="submit" class="order-btn">Order</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="../images/starbucks_img/Iced Caramel Macchiato.png" alt="Iced Caramel Macchiato" class="menu-item-image">
+                    <div class="menu-item-details">
+                        <h3>Iced Caramel Macchiato</h3>
+                        <p class="menu-item-price">₱176.00</p>
+                        <form action="order.php" method="POST" class="order-form">
+                            <input type="number" name="quantity" min="1" value="1" class="quantity-input">
+                            <input type="hidden" name="item" value="Iced Caramel Macchiato">
+                            <input type="hidden" name="price" value="176.00">
+                            <button type="submit" class="order-btn">Order</button>
+                        </form>
+                    </div>                  
+                </div>
+                <div class="menu-item">
+                    <img src="../images/starbucks_img/Iced White Chocolate Mocha.jpg" alt="Iced White Chocolate Mocha" class="menu-item-image">
+                    <div class="menu-item-details">
+                        <h3>Iced White Chocolate Mocha</h3>
+                        <p class="menu-item-price">₱195.00</p>
+                        <form action="order.php" method="POST" class="order-form">
+                            <input type="number" name="quantity" min="1" value="1" class="quantity-input">
+                            <input type="hidden" name="item" value="Iced White Chocolate Mocha">
+                            <input type="hidden" name="price" value="195.00">
+                            <button type="submit" class="order-btn">Order</button>
+                        </form>
+                    </div>                   
+                </div>
+                <div class="menu-item">
+                    <img src="../images/starbucks_img/IcedAmericano.jpg" alt="Iced Americano" class="menu-item-image">
+                    <div class="menu-item-details">
+                        <h3>Iced Americano</h3>
+                        <p class="menu-item-price">₱145.00</p>
+                        <form action="order.php" method="POST" class="order-form">
+                            <input type="number" name="quantity" min="1" value="1" class="quantity-input">
+                            <input type="hidden" name="item" value="Iced Americano">
+                            <input type="hidden" name="price" value="145.00">
+                            <button type="submit" class="order-btn">Order</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="../images/starbucks_img/Chocolate Chip Cream Frappuccino.jpg" alt="Chocolate Chip Cream Frappuccino" class="menu-item-image">
+                    <div class="menu-item-details">
+                        <h3>Chocolate Chip Cream Frappuccino</h3>
+                        <p class="menu-item-price">₱200.00</p>
+                        <form action="order.php" method="POST" class="order-form">
+                            <input type="number" name="quantity" min="1" value="1" class="quantity-input">
+                            <input type="hidden" name="item" value="Chocolate Chip Cream Frappuccino">
+                            <input type="hidden" name="price" value="200.00">
+                            <button type="submit" class="order-btn">Order</button>
+                        </form>
+                    </div>                  
+                </div>
+                <div class="menu-item">
+                    <img src="../images/starbucks_img/Strawberries & Cream Frappuccino.jpg" alt="chowking siomai chao fan family platter" class="menu-item-image">
+                    <div class="menu-item-details">
+                        <h3>Strawberries & Cream Frappuccino</h3>
+                        <p class="menu-item-price">₱205.00</p>
+                        <form action="order.php" method="POST" class="order-form">
+                            <input type="number" name="quantity" min="1" value="1" class="quantity-input">
+                            <input type="hidden" name="item" value="Strawberries & Cream Frappuccino">
+                            <input type="hidden" name="price" value="205.00">
+                            <button type="submit" class="order-btn">Order</button>
+                        </form>
+                    </div>                   
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

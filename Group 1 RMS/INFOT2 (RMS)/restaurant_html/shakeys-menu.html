@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shakeys Menu</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style1.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Shakeys Menu</h1>
+            <a href="../index.html" class="back-link">Back to Restaurants</a>
+        </div>
+    </header>
+
+    <section class="menu-section">
+        <div class="container">
+            <h2 class="section-title">Our Menu</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <img src="../images/shakeys_img/2pc Chicken with Rice.png" alt="2pc Chicken with Rice" class="menu-item-image">
+                    <div class="menu-item-details">
+                        <h3>2pc Chicken with Rice</h3>
+                        <p class="menu-item-price">₱229.00</p>
+                        <form action="../order.php" method="POST" class="order-form">
+                            <input type="number" name="quantity" min="1" value="1" class="quantity-input">
+                            <input type="hidden" name="item" value="1pc ChineseStyle Fried Chicken">
+                            <input type="hidden" name="price" value="229.00">
+                            <input type="hidden" name="restaurant_name" value="Shakey's">
+                            <button type="submit" class="order-btn">Order</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="../images/Shakeys_img/Hawaiian Delight Pizza Americana.png" alt="Hawaiian Delight Pizza Americana" class="menu-item-image">
+                    <div class="menu-item-details">
+                        <h3>Hawaiian Delight Pizza Americana</h3>
+                        <p class="menu-item-price">₱1204.00</p>
+                        <form action="../order.php" method="POST" class="order-form">
+                            <input type="number" name="quantity" min="1" value="1" class="quantity-input">
+                            <input type="hidden" name="item" value="4pc Chicken Chao Fan Family Bundle">
+                            <input type="hidden" name="price" value="1204.00">
+                            <input type="hidden" name="restaurant_name" value="Shakey's">
+                            <button type="submit" class="order-btn">Order</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="../images/Shakeys_img/Glazed Bacon Pizza Americana.png" alt="Glazed Bacon Pizza Americana" class="menu-item-image">
+                    <div class="menu-item-details">
+                        <h3>Glazed Bacon Pizza Americana</h3>
+                        <p class="menu-item-price">₱1339.00</p>
+                        <form action="../order.php" method="POST" class="order-form">
+                            <input type="number" name="quantity" min="1" value="1" class="quantity-input">
+                            <input type="hidden" name="item" value="chinese fried rice pork siomai chao fan">
+                            <input type="hidden" name="price" value="1339.00">
+                            <input type="hidden" name="restaurant_name" value="Shakey's">
+                            <button type="submit" class="order-btn">Order</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="../images/Shakeys_img/Classic Cheese Pizza Amerikana.png" alt="Classic Cheese Pizza Amerikana" class="menu-item-image">
+                    <div class="menu-item-details">
+                        <h3>Classic Cheese Pizza Amerikana</h3>
+                        <p class="menu-item-price">₱1204.00</p>
+                        <form action="../order.php" method="POST" class="order-form">
+                            <input type="number" name="quantity" min="1" value="1" class="quantity-input">
+                            <input type="hidden" name="item" value="Chinese Style Fried Chicken Lauriat">
+                            <input type="hidden" name="price" value="1204.00">
+                            <input type="hidden" name="restaurant_name" value="Shakey's">
+                            <button type="submit" class="order-btn">Order</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="../images/Shakeys_img/Tender Crunch Chicken Fingers Basket.png" alt="Tender Crunch Chicken Fingers Basket" class="menu-item-image">
+                    <div class="menu-item-details">
+                        <h3>Tender Crunch Chicken Fingers Basket</h3>
+                        <p class="menu-item-price">₱409.00</p>
+                        <form action="../order.php" method="POST" class="order-form">
+                            <input type="number" name="quantity" min="1" value="1" class="quantity-input">
+                            <input type="hidden" name="item" value="chowking siomai chao fan family platter">
+                            <input type="hidden" name="price" value="409.00">
+                            <input type="hidden" name="restaurant_name" value="Shakey's">
+                            <button type="submit" class="order-btn">Order</button>
+                        </form>
+                    </div>                  
+                </div>
+                <div class="menu-item">
+                    <img src="../images/Shakeys_img/Mojos Supreme.png" alt="Mojos Supreme" class="menu-item-image">
+                    <div class="menu-item-details">
+                        <h3>Mojos Supreme</h3>
+                        <p class="menu-item-price">₱589.00</p>
+                        <form action="../order.php" method="POST" class="order-form">
+                            <input type="number" name="quantity" min="1" value="1" class="quantity-input">
+                            <input type="hidden" name="item" value="Spicy Chou Fan">
+                            <input type="hidden" name="price" value="589.00">
+                            <input type="hidden" name="restaurant_name" value="Shakey's">
+                            <button type="submit" class="order-btn">Order</button>
+                        </form>
+                    </div>                   
+                </div>
+                <div class="menu-item">
+                    <img src="../images/Shakeys_img/Monster Meal Deal.png" alt="Monster Meal Deal" class="menu-item-image">
+                    <div class="menu-item-details">
+                        <h3>Monster Meal Deal</h3>
+                        <p class="menu-item-price">₱3749.00</p>
+                        <form action="../order.php" method="POST" class="order-form">
+                            <input type="number" name="quantity" min="1" value="1" class="quantity-input">
+                            <input type="hidden" name="item" value="1pc Chinese-Style Fried Chicken">
+                            <input type="hidden" name="price" value="3749.00">
+                            <input type="hidden" name="restaurant_name" value="Shakey's">
+                            <button type="submit" class="order-btn">Order</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="../images/Shakeys_img/Classic Spinach Pizza Americana.png" alt="Classic Spinach Pizza Americana" class="menu-item-image">
+                    <div class="menu-item-details">
+                        <h3>Classic Spinach Pizza Americana</h3>
+                        <p class="menu-item-price">₱1204.00</p>
+                        <form action="../order.php" method="POST" class="order-form">
+                            <input type="number" name="quantity" min="1" value="1" class="quantity-input">
+                            <input type="hidden" name="item" value="Sweet & Sour Pork-Chao Fan Family Bundle">
+                            <input type="hidden" name="price" value="1204.00">
+                            <input type="hidden" name="restaurant_name" value="Shakey's">
+                            <button type="submit" class="order-btn">Order</button>
+                        </form>
+                    </div>                  
+                </div>
+                <div class="menu-item">
+                    <img src="../images/Shakeys_img/Classic Spinach.png" alt="Classic Spinach" class="menu-item-image">
+                    <div class="menu-item-details">
+                        <h3>Classic Spinach</h3>
+                        <p class="menu-item-price">₱359.00</p>
+                        <form action="../order.php" method="POST" class="order-form">
+                            <input type="number" name="quantity" min="1" value="1" class="quantity-input">
+                            <input type="hidden" name="item" value="Pork Chou Fan">
+                            <input type="hidden" name="price" value="359.00">
+                            <input type="hidden" name="restaurant_name" value="Shakey's">
+                            <button type="submit" class="order-btn">Order</button>
+                        </form>
+                    </div>                   
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
